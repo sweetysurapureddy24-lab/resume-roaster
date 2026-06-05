@@ -63,3 +63,4 @@ if __name__ == "__main__":
     import streamlit.web.cli as stcli, sys
     sys.argv = ["streamlit", "run", __file__]
     sys.exit(stcli.main())
+st.markdown("[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fresume-roaster-jrz9hegpfau6xka5txbl.streamlit.app&count_bg=%232379C83D&title_bg=%233555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)")
