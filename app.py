@@ -40,7 +40,7 @@ def ask_ai_to_roast(resume_text, api_key):
 
 # --- STREAMLIT USER INTERFACE ---
 # Put your working API key here inside the quotes!
-MY_API_KEY = "AQ.Ab8RN6Ip6XHFfjJWxJQEGgdGntUqkPqmXjxBquuCf2B8dcvn7g"
+MY_API_KEY = st.secrets["GEMINI_API_KEY"]
 
 uploaded_file = st.file_uploader("Choose your resume PDF file", type=["pdf"])
 
